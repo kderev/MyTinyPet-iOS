@@ -221,3 +221,6 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 ---
 
 **Amusez-vous bien avec votre petit compagnon virtuel ! 🐾**
+
+---
+*Ready for App Store review* ✅
