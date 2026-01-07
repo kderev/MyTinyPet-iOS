@@ -1,0 +1,31 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF69B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF0F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="200" fill="url(#bgGrad)"/>
+  
+  <!-- Main paw pad -->
+  <ellipse cx="512" cy="580" rx="200" ry="180" fill="url(#pawGrad)"/>
+  
+  <!-- Toe pads -->
+  <ellipse cx="350" cy="360" rx="80" ry="90" fill="url(#pawGrad)"/>
+  <ellipse cx="510" cy="310" rx="85" ry="95" fill="url(#pawGrad)"/>
+  <ellipse cx="670" cy="360" rx="80" ry="90" fill="url(#pawGrad)"/>
+  
+  <!-- Small heart -->
+  <path d="M512 750 C480 720, 440 750, 440 790 C440 830, 512 880, 512 880 C512 880, 584 830, 584 790 C584 750, 544 720, 512 750" fill="#FF1493"/>
+  
+  <!-- Sparkles -->
+  <circle cx="200" cy="200" r="20" fill="white" opacity="0.8"/>
+  <circle cx="824" cy="180" r="15" fill="white" opacity="0.6"/>
+  <circle cx="850" cy="800" r="25" fill="white" opacity="0.7"/>
+</svg>
